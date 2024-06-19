@@ -2,7 +2,7 @@ import React from "react";
 import { SongsCard } from "../SongsCard";
 import axios from "axios";
 
-const BACKEND_URL = 'http://localhost:3001/api/v1/';
+const BACKEND_URL = 'http://16.170.146.70:3001/api/v1/';
 const PLAYLIST = '6671e92fd6f509857799f5ed';
 
 export const SongsSection = async () => {

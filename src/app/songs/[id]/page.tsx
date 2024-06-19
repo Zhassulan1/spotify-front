@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const BACKEND_URL = 'http://localhost:3001/api/v1/';
+const BACKEND_URL = 'http://16.170.146.70:3001/api/v1/';
 const PLAYLIST = '6671e92fd6f509857799f5ed';
 
 export default function Page({ params }: {params: {id: string}}) {

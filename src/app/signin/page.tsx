@@ -13,7 +13,7 @@ const Signin = () => {
   };
 
   const onSubmit = (event: any) => {
-    axios.post('http://localhost:3001/api/v1/login', {username, password})
+    axios.post('http://16.170.146.70:3001/api/v1/login', {username, password})
     .then(response => {
         console.log(response)
         localStorage.setItem('auth', JSON.stringify(response.data))

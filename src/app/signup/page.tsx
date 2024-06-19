@@ -14,7 +14,7 @@ const Signup = () => {
 
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    axios.post('http://localhost:3001/api/v1/register', {username, password})
+    axios.post('http://16.170.146.70:3001/api/v1/register', {username, password})
     .then(response => {
         localStorage.setItem('auth', JSON.stringify(response.data))
     })
