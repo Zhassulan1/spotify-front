@@ -74,7 +74,7 @@ const Signin = () => {
         </form>
         <div className="mt-6 text-center">
           <p className="text-sm text-gray-400">
-            Don't have an account?{" "}
+            Do not have an account?
             <button type="submit" className="text-green-400 hover:underline">
               Sign up
             </button>
